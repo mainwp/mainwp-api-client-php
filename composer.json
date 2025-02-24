@@ -1,0 +1,14 @@
+{
+  "name": "mainwp/mainwp-api-client-php",
+  "description": "A short description of your package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MainWP\\Dashboard\\": "src/MainWP"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
