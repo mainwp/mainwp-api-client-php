@@ -1,4 +1,4 @@
-# MainWP API Client PHP
+![image](https://github.com/user-attachments/assets/6f7a9d02-399f-477f-ac15-3bfdd5106f24)# MainWP API Client PHP
 
 A PHP wrapper for the MainWP REST API. Easily interact with the MainWP REST API securely using this library. If using a HTTPS connection this library uses BasicAuth, else it uses Bear Token to provide a secure connection to MainWP.
 
@@ -31,10 +31,10 @@ composer require mainwp/mainwp-api-client-php
 
 ## Getting started
 
-Generate API credentials (Consumer Key & Consumer Secret) following this instructions <http://docs.mainwp.com/document/mainwp-rest-api/>
+Generate API credentials following this instructions [MainWP REST API](https://mainwp.com/kb/mainwp-rest-api/)
 .
 
-Check out the MainWP API endpoints and data that can be manipulated in <https://mainwp.github.io/mainwp-rest-api-docs/>.
+Check out the MainWP API endpoints and data that can be manipulated in [MainWP REST API Endpoints](https://www.postman.com/mainwp/mainwp/collection/ujfddk4/mainwp-rest-api-v2-current).
 
 ## Setup
 
@@ -86,7 +86,7 @@ $mainwp = new Client($url, $options );
 | Option             | Type     | Required | Description                                        |
 | ------------------ | -------- | -------- | -------------------------------------------------- |
 | `url`              | `string` | yes      | Your Store URL, example: http://mydashboard.dev/   |
-| `consumer_apikey`  | `string` | no	   | Your API consumer Bearer token key                 |
+| `consumer_apikey`  | `string` | no	     | Your API consumer Bearer token key                 |
 | `options`          | `array`  | no       | Extra arguments (see client options table)         |
 
 #### Client options
@@ -97,8 +97,8 @@ $mainwp = new Client($url, $options );
 | `timeout`                | `int`    | no       | Request timeout, default is `15`                                                                                                                       |
 | `verify_ssl`             | `bool`   | no       | Verify SSL when connect, use this option as `false` when need to test with self-signed certificates, default is `true`                                 |
 | `auth_method`            | `string  | no       | Use Bearer Token `bearer` or Basic 'basic' auth for requests, default is `bearer`                                                      |                    |
-| `consumer_key`    	   | `string` | no    	 | Your API consumer key                      																											  |
-| `consumer_secret` 	   | `string` | no   	 | Your API consumer secret                   																											  |
+| `consumer_key`    	     | `string` | no    	 | Your API consumer key                      																											  |
+| `consumer_secret` 	     | `string` | no   	   | Your API consumer secret                   																											  |
 | `follow_redirects`       | `bool`   | no       | Allow the API call to follow redirects                                                                                                                 |
 | `query_string_auth`      | `bool`   | no       | Force Basic Authentication as query string when `true` and using under HTTPS, default is `false`                                                       |
 | `user_agent`             | `string` | no       | Custom user-agent, default is `MainWP API Client-PHP`                                                                                                  |
