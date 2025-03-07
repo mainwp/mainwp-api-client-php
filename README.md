@@ -2,10 +2,6 @@
 
 A PHP wrapper for the MainWP REST API. Easily interact with the MainWP REST API securely using this library. If using a HTTPS connection this library uses BasicAuth, else it uses Bear Token to provide a secure connection to MainWP.
 
-[![CI status](https://github.com/mainwp/mainwp-api-client-php/actions/workflows/ci.yml/badge.svg?branch=trunk)](https://github.com/mainwp/mainwp-api-client-php/actions/workflows/ci.yml)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mainwp/mainwp-api-client-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mainwp/mainwp-api-client-php/?branch=master)
-[![PHP version](https://badge.fury.io/ph/mainwp%2Fmainwp.svg)](https://packagist.org/packages/mainwp/mainwp-api-client-php)
-
 ## Installation
 
 Create composer.json as bellow if want to get package from github
