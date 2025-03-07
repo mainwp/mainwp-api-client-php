@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6f7a9d02-399f-477f-ac15-3bfdd5106f24)# MainWP API Client PHP
+# MainWP API Client PHP
 
 A PHP wrapper for the MainWP REST API. Easily interact with the MainWP REST API securely using this library. If using a HTTPS connection this library uses BasicAuth, else it uses Bear Token to provide a secure connection to MainWP.
 
